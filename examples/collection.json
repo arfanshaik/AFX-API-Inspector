@@ -1,0 +1,19 @@
+{
+  "name": "AFX Demo Collection",
+  "requests": [
+    {
+      "name": "GitHub API",
+      "method": "GET",
+      "url": "https://api.github.com",
+      "headers": {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "AFX-API-Inspector"
+      }
+    },
+    {
+      "name": "JSON Placeholder",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/todos/1"
+    }
+  ]
+}
