@@ -1,0 +1,35 @@
+{
+  "name": "afx-api-inspector",
+  "version": "1.0.0",
+  "description": "A fast TypeScript CLI for inspecting, testing, benchmarking, and running HTTP API requests.",
+  "type": "module",
+  "bin": {
+    "afx-api-inspector": "dist/src/cli.js"
+  },
+  "scripts": {
+    "clean": "node -e \"import('node:fs').then(fs=>fs.rmSync('dist',{recursive:true,force:true}))\"",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/cli.js",
+    "dev": "npm run build && node dist/src/cli.js",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "check": "npm run build && npm test"
+  },
+  "keywords": [
+    "api",
+    "http",
+    "cli",
+    "typescript",
+    "developer-tools",
+    "rest",
+    "benchmark"
+  ],
+  "author": "Shaik Arfan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
