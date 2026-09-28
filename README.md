@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/preview.svg" alt="AFX-API-Inspector preview" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/features.svg" alt="AFX-API-Inspector features" width="100%" />
+</p>
+
 # ⚡ AFX API Inspector
 
 **AFX API Inspector** is a fast developer-focused HTTP API inspection CLI built with **TypeScript + Node.js**. Send requests, inspect status codes and headers, measure response time and payload size, benchmark endpoints, save response bodies, and run reusable API collections from the terminal.
