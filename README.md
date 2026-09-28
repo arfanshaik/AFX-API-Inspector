@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="assets/preview.svg" alt="AFX-API-Inspector preview" width="100%" />
-</p>
-
-<p align="center">
-  <img src="assets/features.svg" alt="AFX-API-Inspector features" width="100%" />
+  <img src="assets/website-preview.svg" alt="AFX API Inspector website preview" width="100%" />
 </p>
 
 # ⚡ AFX API Inspector
